@@ -7,7 +7,7 @@
             "command": "clang++",
             "args": [
                 "-std=c++17",
-                "-I/Users/iketaku/dev/AtCoder/ac-library",
+                "-I/Users/iketaku/dev/AtCoder/過去問/ac-library/atcoder",
                 "-Wall",
                 "-Wextra",
                 "${file}",
