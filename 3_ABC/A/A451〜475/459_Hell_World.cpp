@@ -9,7 +9,7 @@ int main() {
 
     for (int i = 0; i < s.size(); i++) {
         if (i == x - 1)
-            continue;
+            continue; //でなければ戻すコマンド。
         cout << s[i];
     }
 
