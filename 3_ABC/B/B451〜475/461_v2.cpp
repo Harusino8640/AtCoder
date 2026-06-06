@@ -14,16 +14,13 @@ int main() {
         cin >> B[i];
     }
 
-    bool check = true;
     for (int i = 1; i <= N; i++) {
         if (B[A[i]] != i) {
-            cout << "No\n";
-            check = false;
-            break;
+            cout << "No" << endl;
+            return 0;
         }
     }
 
-    if (check) {
-        cout << "Yes\n";
-    }
+    cout << "Yes" << endl;
+    return 0;
 }
